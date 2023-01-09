@@ -1,0 +1,228 @@
+
+*{
+   
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+}
+
+/* nav menu style here  */
+
+.navbar_list {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  
+  .navbar_list a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+ 
+  .navbar_list a:hover {
+    background-color: #04AA6D;
+    color: black;
+  }
+  
+
+
+
+/* header section style here  */
+.header{
+    background-image: url(images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 809px;
+    width: 1600;
+
+}
+.hints{
+    text-align: right;
+    
+    font-weight: bold;
+    font-size: 60px;
+    padding: 233px 230px 20px 1200px;
+    
+}
+.heding-descr{
+    text-align: right;
+    justify-content: right;
+    padding: 0px 230px 20px 1150px;
+}
+
+.contact_button{
+    float: right;
+    margin: 0px 230px 20px 1200px;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    
+}
+
+/* last year doc style here  */
+
+
+.check-mark{
+    color: rgb(56, 245, 56);
+    font-size: 30px;
+}
+.info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    margin: 150px 50px 20px 400px;
+  
+}
+.info-heading{
+    margin: 150px 500px 10px 0px; 
+    font-size: 40px; 
+}
+.information{
+    margin: 20px 440px 20px 0px; 
+    letter-spacing: 2px;
+    line-height: 24px;
+};
+
+
+ /* plan section style here  */
+
+
+.flex-item{
+    display: flex;
+flex-wrap: wrap;}
+
+.plan-chart{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.plan-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    margin: 150px 0 30px 0;
+}
+
+.plans-style{
+margin: 20px 60px ;
+text-align: center;
+}
+
+.common-margin{
+    margin-bottom: 20px;
+}
+
+
+/* mindset section style here  */
+
+
+
+#mindset_section{
+    margin-top: 100px;
+    padding: 60px;
+
+    background-image: url(images/gradient2.png), url(images/watch.png);
+    
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    background-position: center;
+}
+
+h2{
+    margin-bottom: 20px;
+    font-size: 50px;
+    width: 35%;
+    margin-left: 380px;
+    color: white;
+    
+}
+
+.call_button{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(247, 77, 77);
+    padding: 20px 30px;
+    margin-left: 380px;
+    
+}
+
+/* footer section style here  */
+
+.footer{
+    background-color: black;
+    height: 550px;
+    margin-top: 100px;
+    display: flex;
+    
+}
+
+.future_section{
+    width: 50%; 
+    margin-left: 260px;  
+    margin-top: 120px;
+}
+
+.white_color{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+
+.icon{
+   margin-top: 20px;
+   margin-right: 20px;
+}
+
+.footer_heading{
+    font-size: 50px;
+    font-weight: bold;
+    color: white; 
+}
+
+.subscrib_heading{
+    font-size: 30px;
+    font-weight: bold;
+    color: white; 
+    margin-bottom: 30px;
+}
+
+.email_input{
+    box-sizing: border-box;
+    outline: none;
+    background-color: black;
+    border: 2px solid white;
+    font-size: 30px;
+    padding: 20px 30px 20px 10px;
+    border-radius: 10px;
+}
+
+.subscrib_button{
+    margin-top: 30px;
+    color: #F15B22;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+::placeholder{
+    color: white;
+    font-size: 25px;
+}
